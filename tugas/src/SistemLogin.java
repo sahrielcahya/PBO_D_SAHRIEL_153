@@ -25,7 +25,7 @@ public class SistemLogin {
                 String password = objInput.nextLine();
 
                 // Cek kredensial admin (misalnya 3 digit terakhir NIM adalah 010)
-                String nimAkhir = "259";
+                String nimAkhir = "153";
                 String usernameValid = "Admin" + nimAkhir;
                 String passwordValid = "password" + nimAkhir;
 
@@ -43,8 +43,8 @@ public class SistemLogin {
                 String nim = objInput.nextLine();
 
                 // Data mahasiswa valid (contoh)
-                String namaValid = "Grenda agriansyah";
-                String nimValid = "202410370110259";
+                String namaValid = "sahriel cahya alfarezi";
+                String nimValid = "202410370110153";
 
                 if (nama.equals(namaValid) && nim.equals(nimValid)) {
                     System.out.println("Login Mahasiswa berhasil!");
